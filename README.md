@@ -1,2 +1,2 @@
 # Decision_Trees
- study of decision trees
+a study of decision trees. Decision trees are one of the backbones of 'traditional' machine learning. They range in complexity from simple decision tree algorithmns like ID3 and CART, through to well known algorithms that use lots of trees like random forest or XGBoost. They are very effective and yield excellent performance, and are much easier to implement than deep learning models
