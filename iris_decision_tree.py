@@ -30,7 +30,7 @@ labels = y.unique()
 X_train, test_x, y_train, test_lab = train_test_split(x, y, test_size=0.4, random_state=42)
 
 # fit the model to the training data
-clf = DecisionTreeClassifier(criterion='entropy', max_depth=3, random_state=42)
+clf = DecisionTreeClassifier(criterion='entropy', max_depth=5, random_state=42)
 clf.fit(X_train, y_train)
 
 # plot the tree figure
